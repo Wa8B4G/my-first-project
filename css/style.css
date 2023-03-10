@@ -1,0 +1,94 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #737477;
+
+}
+/* utility styling */
+h1,h2,h3{
+    margin: 10px 15px;
+}
+.link-current{
+    border-bottom: 4px solid #737477;
+    background-color: beige;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.link-current:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+#btn{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    background-color: blue;
+}
+/* my sign form*/
+#main-sign-in{
+    margin: auto;
+    width: 400px;
+    padding-top: 10px;
+ 
+   
+   
+ 
+
+}
+#main-sign-in .container{
+    background-color:#fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #000;
+    padding-bottom: 5px;
+}
+#main-sign-in .container .sign-in-content{
+     padding: 10px 15px;
+     display: flex;
+     text-align: center;
+}
+#main-sign-in .container .sign-in-content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: green;
+}
+.link{
+    margin-left: 100px;
+}
+#main-sign-in .container  #my-form{
+    margin: 20px 20px;
+}
+#main-sign-in .container  #my-form input:last-child{
+    margin-top: 10px;
+    background-color: orange;
+}
+#main-sign-in .container  #my-form .input-1{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #737477;
+    text-indent: 7px;
+}
+
+#main-sign-in .container  #my-form .input-1:focus{
+border: 2px solid sandybrown;
+}
+#main-sign-in .container  #my-form label{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#main-sign-in .container  #my-form a{
+    display: block;
+    text-align: center;
+    margin: 10px 15px;
+}
